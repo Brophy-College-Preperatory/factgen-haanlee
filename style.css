@@ -1,30 +1,30 @@
-* {   /* Reset the margin and padding for all the elements */
+* {   /* Reset the margin and padding for all the elements */ 
    margin: 0px;
    padding: 0px;
 }
 
-body {
+body { /*makes the format and appearance of the body by setting the alignment of text, font, and colors*/
   font-family: 'Overpass', sans-serif; 
   text-align: center; 
   color: #003046; /* Default text color */
   background-color: #F9E9EC;/* Background color */
 }
 
-h1 {
+h1 { /*creates appearance of the first header and sets the color, alignment, and font*/
   background-color: #FAC748;
   color:#1D2F6F;
   text-align: center; 
   font-family: 'Playfair Display', serif;
 }
 
-main {
+main { /*makes appearance of the main and sets the color, alignment, and font*/
   margin: 0 auto;
   max-width: 60%;
   text-align: center;
   font-family: 'Overpass', sans-serif; 
 }
 
-/* STYLE TEXT */
+/* STYLE TEXT */ /*makes the style of the text (size, alignment, etc.)*/
 p {
   font-size: 1.2em;
   text-align: left; 
@@ -32,14 +32,14 @@ p {
   padding-bottom: 1em;
 }
 
-#fact {
+#fact { /*makes the appearance of each fact that is generated such as the font weight, font sie, text alignment, and margin*/
   font-weight: 700;
   font-size: 1.5em;
   text-align: center;
   margin-top: 1.5em;
 }
 
-h1 {
+h1 { /*size of first header, the padding for both top and bottom*/
   font-size: 2.2em;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -47,7 +47,7 @@ h1 {
 
 
 
-/* STYLE BUTTON */
+/* STYLE BUTTON */ /*makes the style of the button such as the background, padding, font, font size, and the border style*/
 button {
   background: #FAC748;
   padding: 10px;
